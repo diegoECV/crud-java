@@ -1,0 +1,13 @@
+CREATE DATABASE backend_db;
+
+USE backend_db;
+
+CREATE TABLE clientes (
+id INT PRIMARY KEY AUTO_INCREMENT,
+dni_ruc VARCHAR(20) NOT NULL,
+nombre VARCHAR(100) NOT NULL,
+telefono VARCHAR(20) NOT NULL,
+correo VARCHAR(100) NOT NULL,
+direccion VARCHAR(200) NOT NULL,
+estado VARCHAR(10) NOT NULL
+);
