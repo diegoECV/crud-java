@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
 
-	private static final String DB_HOST = "wawalu-aws.c506266wsgbx.us-east-1.rds.amazonaws.com";
+	private static final String DB_HOST = "frontend.c506266wsgbx.us-east-1.rds.amazonaws.com";
 	private static final String DB_USER = "root";
 	private static final String DB_PASSWORD = "diego1416";
-	private static final String DB_NAME = "wawalu_db";
+	private static final String DB_NAME = "backend_db";
 	private static final String DB_URL = "jdbc:mysql://" + DB_HOST + ":3306/" + DB_NAME + "?useSSL=false&serverTimezone=UTC";
 
 	public static Connection getConnection() throws SQLException {
